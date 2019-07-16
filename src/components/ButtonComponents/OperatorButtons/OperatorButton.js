@@ -6,7 +6,7 @@ import React from "react";
 const OperatorButton = ({value, char, id}) => {
   return (
     <>
-       {<button key ={id} value = {value} className = "">{char}</button>}
+       {<button class ="operatorButtons" key ={id} value = {value} className = "">{char}</button>}
     </>
   );
 };
