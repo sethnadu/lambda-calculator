@@ -1,14 +1,14 @@
 import React from "react";
-import Numbers from "./Numbers";
 
-const NumberButton = ({buttonNumber}) => {
+
+const NumberButton = ({number, id}) => {
 
 
   return (
-    <div>
+    <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      {buttonNumber}
-    </div>
+     { <button value = {id} className ="calc-btn" >{number}</button> }
+    </>
   );
 };
 
